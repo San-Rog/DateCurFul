@@ -13,7 +13,6 @@ def main():
     pg.run()   
 
 def supplyState():
-    st.write(time.time())
     if 'color' not in st.session_state: 
         st.session_state.color = "#0059F9" 
     if 'colorOpt' not in st.session_state:
